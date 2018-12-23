@@ -16,4 +16,8 @@ $("#number").html(number);
 $("#wins").html(wins);
 $("#losses").html(losses);
 $("#score").html(score);
+$("#img1").css( 'cursor', 'pointer' ).click(function(){alert(cristal1);});
+$("#img2").css( 'cursor', 'pointer' ).click(function(){alert(cristal2);});
+$("#img3").css( 'cursor', 'pointer' ).click(function(){alert(cristal3);});
+$("#img4").css( 'cursor', 'pointer' ).click(function(){alert(cristal4);});
 });
