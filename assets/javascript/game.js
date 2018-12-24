@@ -20,7 +20,7 @@ $("#img1").css( 'cursor', 'pointer' ).click( function(){score=score+cristal1;
     if( score == number ){wins++}else if(score > number) {losses++};
     $("#wins").html(wins);$("#losses").html(losses);$("#score").html(score);
     } );
-$("#img2").css( 'cursor', 'pointer' ).click(function(){score=score+cristal2;  if( score == number ){wins++}
+$("#img2").css( 'cursor', 'pointer' ).click(function(){score=score+cristal2; 
      if( score == number ){wins++}else if(score > number) {losses++};
      $("#wins").html(wins);$("#losses").html(losses);$("#score").html(score);
       } );
